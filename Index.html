@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang = "pl">
+	<head>
+		<title>AutoMaster</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Teko:wght@600&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="css/home.css">
+	</head>
+	<body>
+	<div class="wrapper">
+		<header class="header header-main">
+			<div class="container">
+				<div class="header__inner">
+					<a class="logo" href="home.html">
+						<p class="logo__title">Auto Master</p>
+					</a>
+					<nav class="menu">
+						<button class="menu__btn">
+						<span class="menu__btn-span"></span>
+						<span class="menu__btn-span"></span>
+						<span class="menu__btn-span"></span>
+						</button>
+						<ul class="menu__list">
+							<li class="menu__list-item">
+								<a class="menu__list-link" href="new-cars.html">NOWE SAMOCHODY</a>
+								<div class="hidden-block">
+									<ul class="hidden-item">
+										<li><a href="new-cars.html">Samochód i Minivan</a></li>
+										<li><a href="new-cars.html">Samochody ciężarowe</a></li>
+										<li><a href="new-cars.html">Crossovers & SUVs</a></li>
+										<li><a href="new-cars.html">Zelektryzowany</a></li>
+									</ul>
+								</div>
+							</li>
+							<li class="menu__list-item">
+								<a class="menu__list-link" href="news.html">Aktualności</a>
+							</li>
+							<li class="menu__list-item">
+								<a class="menu__list-link" href="contact.html">SKONTAKTUJ SIĘ</a>
+							</li>
+							<li>
+								<a href="logging.html"><span  class="menu__logout material-symbols-outlined">logout</span></a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</header>
+		<main class="main">
+			<section class="top">
+			<div class="container">
+				<h1 class="title">Sprzedaż samochodu</h1>
+				<a class="top__link" href="new-cars.html" >
+					ZNAJDŹ SAMOCHÓD
+				</a>
+			</div>
+		</section>
+			<div class="slider">
+				<div class="swiper">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide" style="background-image: url(img/slide1.jpg);"></div>
+						<div class="swiper-slide" style="background-image: url(img/slide5.jpg);"></div>
+						<div class="swiper-slide" style="background-image: url(img/slide6.jpg);"></div>
+						<div class="swiper-slide" style="background-image: url(img/slide7.jpg);"></div>
+					</div>
+					<div class="swiper-pagination"></div>
+				</div>
+			</div>
+			<section class="why-lease">
+				<div class="container">
+					<h2 class="section-title">Dlaczego warto kupić samochód?</h2>
+					<ul class="why-lease__list">
+						<li class="why-lease__item">
+							<img src="img/why-lease1.svg" alt="#" class="why-lease__item-img">
+							<h3 class="why-lease__title">Najlepsi dealerzy</h3>
+							<p class="why-lease__text">Certyfikowani dealerzy AutoMaster konkurują o Twoją firmę, zapewniając obniżone ceny na zapasy w magazynie.</p>
+						</li>
+						<li class="why-lease__item">
+							<img src="img/why-lease2.svg" alt="#" class="why-lease__item-img">
+							<h3 class="why-lease__title">Obniżone ceny</h3>
+							<p class="why-lease__text">Przeglądaj lokalny asortyment w zaciszu własnego domu i uzyskaj dostęp do gwarantowanych oszczędności na wybranym samochodzie.</p>
+						</li>
+						<li class="why-lease__item">
+							<img src="img/why-lease3.svg" alt="#" class="why-lease__item-img">
+							<h3 class="why-lease__title">Niższe płatności</h3>
+							<p class="why-lease__text">GUzyskaj zniżki na zakupy samochodu osobowego lub ciężarowego za pomocą TrueCar i zaoszczędź na ratach leasingowych.</p>
+						</li>
+						<li class="why-lease__item">
+							<img src="img/why-lease4.svg" alt="#" class="why-lease__item-img">
+							<h3 class="why-lease__title">Łatwa aktualizacja</h3>
+							<p class="why-lease__text">Łatwa aktualizacja do najnowszego modelu pojazdu co kilka lat, jeśli chcesz być nowoczesny i wygodny</p>
+						</li>
+					</ul>
+				</div>
+			</section>
+			<section class="how-does">
+				<div class="container">
+					<div class="how__does-inner">
+						<h2 class="section-title">Jak działa sprzedaż samochodów?</h2>
+						<p class="how__does-text">Sprzedaż pojazdu oznacza w zasadzie zawarcie umowy sprzedaży tego pojazdu.
+							W przeciwieństwie do tradycyjnego wynajmu samochodu, faktycznie jesteś jego właścicielem.
+							Zamiast tego firma kupuje pojazd od dealera w Twoim imieniu, a Ty następnie płacisz dealerowi.</p>
+						<h4 class="how__does-title">Przy zakupie pojazdu obowiązują następujące zasady</h4>
+						<ol class="how__does-list">
+							<li class="how__does-item">Przy zakupie pojazdu ważne jest sprawdzenie stanu technicznego oraz historii serwisowej, aby upewnić się co do jego stanu i przeszłości.</li>
+							<li class="how__does-item">Konieczne jest dokładne zapoznanie się z umową kupna-sprzedaży oraz warunkami gwarancji, aby uniknąć nieporozumień związanych z transakcją.</li>
+							<li class="how__does-item">Przed finalizacją zakupu zaleca się przeprowadzenie próbnej jazdy, aby ocenić wydajność i komfort pojazdu oraz upewnić się, czy spełnia oczekiwania nabywcy.</li>
+						</ol>
+						<p class="how-does__text">Ostatecznie, staranne sprawdzenie pojazdu, dokładne zrozumienie umowy i przeprowadzenie próbnej jazdy są kluczowe podczas zakupu. To podejście pomaga zapewnić satysfakcję i pewność wyboru.</p>
+					</div>
+				</div>
+			</section>
+			<section class="video">
+				<div class="container">
+					<h2 class="section-title video__title">WITAJ W AUTO MASTER</h2>
+					<p class="video__text">Przekonaj się jak łatwo jest kupić samochód Auto Master</p>
+					<iframe class="video__content" width="1000" height="500" src="https://www.youtube.com/embed/Zb0x7zTVzew?si=_I_IESefMop4IE1C&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+				</div>
+			</section>
+			<section class="important">
+				<div class="container">
+					<h2 class="section-title important__title">Ważne rzeczy do rozważenia</h2>
+					<p class="important__text">Zakup pojazdu wymaga uwagi w kilku kluczowych obszarach: stan techniczny, umowa kupna, jazda próbna i historia pojazdu. Te punkty są istotne, by zapewnić świadomy wybór i uniknąć nieprzyjemnych niespodzianek.</p>
+					<ul class="important__list">
+						<li class="important__item">
+							<img class="important__item-img" src="img/important1.jpg" alt="#">
+							<p class="important__text">Staranne sprawdzenie silnika, układu hamulcowego, zawieszenia, opon i karoserii.</p>
+						</li>
+						<li class="important__item">
+							<img class="important__item-img" src="img/important2.jpg" alt="#">
+							<p class="important__text">Dokładne zrozumienie warunków umowy, w tym gwarancji i opłat.</p>
+						</li>
+						<li class="important__item">
+							<img class="important__item-img" src="img/important3.jpg" alt="#">
+							<p class="important__text">Testowanie pojazdu, aby ocenić wydajność i komfort jazdy.</p>
+						</li>
+						<li class="important__item">
+							<img class="important__item-img" src="img/important4.jpg" alt="#">
+							<p class="important__text">Sprawdzenie historii serwisowej, liczby właścicieli i ewentualnych uszkodzeń, co pozwoli uniknąć nieprzyjemnych niespodzianek.</p>
+						</li>
+					</ul>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="container">
+				<nav class="footer__menu">
+					<ul class="footer__menu-list">
+						<li class="footer__menu-item"><h4 class="footer__menu-title">Produkty</h4></li>
+						<li class="footer__menu-item"><a href="#" class="footer__menu-link">Używany</a></li>
+						<li class="footer__menu-item"><a href="#" class="footer__menu-link">Aktualności</a></li>
+						<li class="footer__menu-item"><a href="#" class="footer__menu-link">Sprzedaj swój samochód</a></li>
+					</ul>
+					<ul class="footer__menu-list">
+						<li class="footer__menu-item"><h4 class="footer__menu-title">Zasoby</h4></li>
+						<li class="footer__menu-item"><a href="#" class="footer__menu-link">Bloga</a></li>
+						<li class="footer__menu-item"><a href="#" class="footer__menu-link">FAQ</a></li>
+						<li class="footer__menu-item"><a href="#" class="footer__menu-link">Skontaktuj się</a></li>
+					</ul>
+					<ul class="footer__menu-list">
+						<li class="footer__menu-item"><h4 class="footer__menu-title">Pracuj z Auto Master</h4></li>
+						<li class="footer__menu-item"><a href="#" class="footer__menu-link">Dealers</a></li>
+						<li class="footer__menu-item"><a href="#" class="footer__menu-link">Partners</a></li>
+					</ul>
+					<ul class="footer__menu-list">
+						<li class="footer__menu-item"><h4 class="footer__menu-title">O nas</h4></li>
+						<li class="footer__menu-item"><a href="#" class="footer__menu-link">O nas</a></li>
+						<li class="footer__menu-item"><a href="#" class="footer__menu-link">Zespół</a></li>
+						<li class="footer__menu-item"><a href="#" class="footer__menu-link">Kariery</a></li>
+					</ul>
+				</nav>
+				<ul class="app">
+					<li class="app__item">
+						<a class="app__item-link" href="#" >
+							<img class="app__item-img" src="img/app-store.svg" alt="app-store">
+						</a>
+					</li>
+					<li class="app__item">
+						<a class="app__item-link" href="#" >
+							<img class="app__item-img" src="img/google-play.svg" alt="app-store">
+						</a>
+					</li>
+				</ul>
+				<div class="footer__copy">
+					<p class="footer__copy-text">W przypadku przybłukie słowiech uslugi zakupu samochodów Auto Master prosimy dzwonić pod numer 1-888-878-3227.
+						Certyfikowani dealerzy są pojadzeni umową przez Auto Master do społężenia wygaśnie w zakresie obsławki klienta i
+						zakończ program certyfikujący dealera Auto Master.</p>
+					<p class="footer__copy-text">Auto Master nie pośredniczy, nie sprzedaje ani nie leasinguje pojazdów silnikowych.
+						O ile nie zaznaczono inaczej, wszystkie pojazdy pokazane na tej stronie są oferowane do sprzedaży przez licencjonowanych dealerów pojazdów silnikowych.
+						Wszystkie pojazdy podlegają wcześniejszej sprzedaży. Wchodząc na tę stronę, wyrażasz zgodę na Warunki Auto Master
+						Serwisu i Polityki Prywatności.</p>
+				</div>
+				<nav class="copy__nav">
+					<ul class="copy__nav-list">
+						<li class="copy__nav-item"><a href="#" class="copy__nav-link">Warunki usługi</a></li>
+						<li class="copy__nav-item"><a href="#" class="copy__nav-link">Polityka prywatności</a></li>
+						<li class="copy__nav-item"><a href="#" class="copy__nav-link">Nie sprzedawaj moich danych osobowych</a></li>
+					</ul>
+				</nav>
+			</div>
+		</footer>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+	<script src="js/home.js"></script>
+	</body>
+</html>
+
+

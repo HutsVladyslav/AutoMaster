@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang = "pl">
+	<head>
+		<title>AutoMaster</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+		<link rel="stylesheet" href="css/new-cars.css">
+	</head>
+	<body>
+	<div class="wrapper">
+		<header class="header header-main">
+			<div class="container">
+				<div class="header__inner">
+					<a class="logo" href="home.html">
+						<p class="logo__title">AutoMaster</p>
+					</a>
+					<nav class="menu">
+						<button class="menu__btn">
+							<span class="menu__btn-span"></span>
+							<span class="menu__btn-span"></span>
+							<span class="menu__btn-span"></span>
+						</button>
+						<ul class="menu__list">
+							<li class="menu__list-item">
+								<a class="menu__list-link" href="home.html">dom</a>
+							</li>
+							<li class="menu__list-item menu__list-link--active">
+								<a class="menu__list-link" href="new-cars.html">NOWE SAMOCHODY</a>
+							</li>
+							<li class="menu__list-item">
+								<a class="menu__list-link" href="news.html">Aktualności</a>
+							</li>
+							<li class="menu__list-item">
+								<a class="menu__list-link" href="contact.html">SKONTAKTUJ SIĘ</a>
+							</li>
+							<li>
+								<a href="logging.html"><span  class="menu__logout material-symbols-outlined">logout</span></a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</header>
+		<main class="main">
+			<section class="choose">
+				<div class="container">
+					<h2 class="section-title">Wybierz swój samochód</h2>
+					<div class="tabs">
+						<div class="tabs__btn">
+							<button class="tabs__btn-item tabs__btn-item--active"  data-button="content1">Samochód i minivan</button>
+							<button class="tabs__btn-item" data-button="content2">Samochody ciężarowe</button>
+							<button class="tabs__btn-item" data-button="content3">Crossovers & SUVs</button>
+							<button class="tabs__btn-item" data-button="content4">Zelektryzowany</button>
+						</div>
+						<div class="tabs__content">
+							<div class="tabs__content-item tabs__content-item--active" id="content1">
+								<div class="car-card">
+									<img class="card__img" src="img/card1.jpg" alt="#">
+									<div class="card__content">
+										<h4 class="card__title">Toyota Crown 2023</h4>
+										<p class="card__text">Сena 39900zł</p>
+										<p class="card__price">zł 6500/mi</p>
+									</div>
+									<a class="card__link" href="details.html">patrz szczegóły</a>
+								</div>
+								<div class="car-card">
+									<img class="card__img" src="img/card2.jpg" alt="#">
+									<div class="card__content">
+										<h4 class="card__title">Prius Prime 2023</h4>
+										<p class="card__text">Сena 39900zł</p>
+										<p class="card__price">zł 4500/mo</p>
+									</div>
+									<a class="card__link" href="details.html">patrz szczegóły</a>
+								</div>
+								<div class="car-card">
+									<img class="card__img" src="img/card3.jpg" alt="#">
+									<div class="card__content">
+										<h4 class="card__title">Toyota Prius 2023</h4>
+										<p class="card__text">Сena 39900zł</p>
+										<p class="card__price">zł 4000/mo</p>
+									</div>
+									<a class="card__link" href="details.html">patrz szczegóły</a>
+								</div>
+								<div class="car-card">
+									<img class="card__img" src="img/card4.jpg" alt="#">
+									<div class="card__content">
+										<h4 class="card__title">Hyundai Kona 2023</h4>
+										<p class="card__text">Сena 39900zł</p>
+										<p class="card__price">zł 5100/mo</p>
+									</div>
+									<a class="card__link" href="details.html">patrz szczegóły</a>
+								</div>
+								<div class="car-card">
+									<img class="card__img" src="img/card1.jpg" alt="#">
+									<div class="card__content">
+										<h4 class="card__title">Toyota Crown 2023</h4>
+										<p class="card__text">Сena 39900zł</p>
+										<p class="card__price">zł 6500/mi</p>
+									</div>
+									<a class="card__link" href="details.html">patrz szczegóły</a>
+								</div>
+								<div class="car-card">
+									<img class="card__img" src="img/card2.jpg" alt="#">
+									<div class="card__content">
+										<h4 class="card__title">Prius Prime 2023</h4>
+										<p class="card__text">Сena 39900zł</p>
+										<p class="card__price">zł 4500/mo</p>
+									</div>
+									<a class="card__link" href="details.html">patrz szczegóły</a>
+								</div>
+								<div class="car-card">
+									<img class="card__img" src="img/card3.jpg" alt="#">
+									<div class="card__content">
+										<h4 class="card__title">Toyota Prius 2023</h4>
+										<p class="card__text">Сena 39900zł</p>
+										<p class="card__price">zł 4000/mo</p>
+									</div>
+									<a class="card__link" href="details.html">patrz szczegóły</a>
+								</div>
+								<div class="car-card">
+									<img class="card__img" src="img/card4.jpg" alt="#">
+									<div class="card__content">
+										<h4 class="card__title">Hyundai Kona 2023</h4>
+										<p class="card__text">Сena 39900zł</p>
+										<p class="card__price">zł 5100/mo</p>
+									</div>
+									<a class="card__link" href="details.html">patrz szczegóły</a>
+								</div>
+								<div class="car-card">
+									<img class="card__img" src="img/card1.jpg" alt="#">
+									<div class="card__content">
+										<h4 class="card__title">Toyota Crown 2023</h4>
+										<p class="card__text">Сena 39900zł</p>
+										<p class="card__price">zł 6500/mi</p>
+									</div>
+									<a class="card__link" href="details.html">patrz szczegóły</a>
+								</div>
+								<div class="car-card">
+									<img class="card__img" src="img/card2.jpg" alt="#">
+									<div class="card__content">
+										<h4 class="card__title">Prius Prime 2023</h4>
+										<p class="card__text">Сena 39900zł</p>
+										<p class="card__price">zł 4500/mo</p>
+									</div>
+									<a class="card__link" href="details.html">patrz szczegóły</a>
+								</div>
+								<div class="car-card">
+									<img class="card__img" src="img/card3.jpg" alt="#">
+									<div class="card__content">
+										<h4 class="card__title">Toyota Prius 2023</h4>
+										<p class="card__text">Сena 39900zł</p>
+										<p class="card__price">zł 4000/mo</p>
+									</div>
+									<a class="card__link" href="details.html">patrz szczegóły</a>
+								</div>
+								<div class="car-card">
+									<img class="card__img" src="img/card4.jpg" alt="#">
+									<div class="card__content">
+										<h4 class="card__title">Hyundai Kona 2023</h4>
+										<p class="card__text">Сena 39900zł</p>
+										<p class="card__price">zł 5100/mo</p>
+									</div>
+									<a class="card__link" href="details.html">patrz szczegóły</a>
+								</div>
+							</div>
+							<div class="tabs__content-item" id="content2">
+								<div class="car-card">
+									<img class="card__img" src="img/card3.jpg" alt="#">
+									<div class="card__content">
+										<h4 class="card__title">Toyota Prius 2023</h4>
+										<p class="card__text">Сena 39900zł</p>
+										<p class="card__price">zł 4000/mo</p>
+									</div>
+									<a class="card__link" href="details.html">patrz szczegóły</a>
+								</div>
+								<div class="car-card">
+									<img class="card__img" src="img/card2.jpg" alt="#">
+									<div class="card__content">
+										<h4 class="card__title">Prius Prime 2023</h4>
+										<p class="card__text">Сena 39900zł</p>
+										<p class="card__price">zł 4500/mo</p>
+									</div>
+									<a class="card__link" href="details.html">patrz szczegóły</a>
+								</div>
+								<div class="car-card">
+									<img class="card__img" src="img/card4.jpg" alt="#">
+									<div class="card__content">
+										<h4 class="card__title">Hyundai Kona 2023</h4>
+										<p class="card__text">Сena 39900zł</p>
+										<p class="card__price">zł 5100/mo</p>
+									</div>
+									<a class="card__link" href="details.html">patrz szczegóły</a>
+								</div>
+								<div class="car-card">
+									<img class="card__img" src="img/card3.jpg" alt="#">
+									<div class="card__content">
+										<h4 class="card__title">Toyota Prius 2023</h4>
+										<p class="card__text">Сena 39900zł</p>
+										<p class="card__price">zł 4000/mo</p>
+									</div>
+									<a class="card__link" href="details.html">patrz szczegóły</a>
+								</div>
+								<div class="car-card">
+									<img class="card__img" src="img/card2.jpg" alt="#">
+									<div class="card__content">
+										<h4 class="card__title">Prius Prime 2023</h4>
+										<p class="card__text">Сena 39900zł</p>
+										<p class="card__price">zł 4500/mo</p>
+									</div>
+									<a class="card__link" href="details.html">patrz szczegóły</a>
+								</div>
+								<div class="car-card">
+									<img class="card__img" src="img/card4.jpg" alt="#">
+									<div class="card__content">
+										<h4 class="card__title">Hyundai Kona 2023</h4>
+										<p class="card__text">Сena 39900zł</p>
+										<p class="card__price">zł 5100/mo</p>
+									</div>
+									<a class="card__link" href="details.html">patrz szczegóły</a>
+								</div>
+							</div>
+							<div class="tabs__content-item" id="content3">
+								<div class="car-card">
+									<img class="card__img" src="img/card4.jpg" alt="#">
+									<div class="card__content">
+										<h4 class="card__title">Hyundai Kona 2023</h4>
+										<p class="card__text">Сena 39900zł</p>
+										<p class="card__price">zł 5100/mo</p>
+									</div>
+									<a class="card__link" href="details.html">patrz szczegóły</a>
+								</div>
+								<div class="car-card">
+									<img class="card__img" src="img/card1.jpg" alt="#">
+									<div class="card__content">
+										<h4 class="card__title">Toyota Crown 2023</h4>
+										<p class="card__text">Сena 39900zł</p>
+										<p class="card__price">zł 6500/mi</p>
+									</div>
+									<a class="card__link" href="details.html">patrz szczegóły</a>
+								</div>
+								<div class="car-card">
+									<img class="card__img" src="img/card2.jpg" alt="#">
+									<div class="card__content">
+										<h4 class="card__title">Prius Prime 2023</h4>
+										<p class="card__text">Сena 39900zł</p>
+										<p class="card__price">zł 4500/mo</p>
+									</div>
+									<a class="card__link" href="details.html">patrz szczegóły</a>
+								</div>
+								<div class="car-card">
+									<img class="card__img" src="img/card3.jpg" alt="#">
+									<div class="card__content">
+										<h4 class="card__title">Toyota Prius 2023</h4>
+										<p class="card__text">Сena 39900zł</p>
+										<p class="card__price">zł 4000/mo</p>
+									</div>
+									<a class="card__link" href="details.html">patrz szczegóły</a>
+								</div>
+							</div>
+							<div class="tabs__content-item" id="content4">
+								<div class="car-card">
+									<img class="card__img" src="img/card3.jpg" alt="#">
+									<div class="card__content">
+										<h4 class="card__title">Toyota Prius 2023</h4>
+										<p class="card__text">Сena 39900zł</p>
+										<p class="card__price">zł 4000/mo</p>
+									</div>
+									<a class="card__link" href="details.html">patrz szczegóły</a>
+								</div>
+								<div class="car-card">
+									<img class="card__img" src="img/card1.jpg" alt="#">
+									<div class="card__content">
+										<h4 class="card__title">Toyota Crown 2023</h4>
+										<p class="card__text">Сena 39900zł</p>
+										<p class="card__price">zł 6500/mi</p>
+									</div>
+									<a class="card__link" href="details.html">patrz szczegóły</a>
+								</div>
+								<div class="car-card">
+									<img class="card__img" src="img/card2.jpg" alt="#">
+									<div class="card__content">
+										<h4 class="card__title">Prius Prime 2023</h4>
+										<p class="card__text">Сena 39900zł</p>
+										<p class="card__price">zł 4500/mo</p>
+									</div>
+									<a class="card__link" href="details.html">patrz szczegóły</a>
+								</div>
+								<div class="car-card">
+									<img class="card__img" src="img/card3.jpg" alt="#">
+									<div class="card__content">
+										<h4 class="card__title">Toyota Prius 2023</h4>
+										<p class="card__text">Сena 39900zł</p>
+										<p class="card__price">zł 4000/mo</p>
+									</div>
+									<a class="card__link" href="details.html">patrz szczegóły</a>
+								</div>
+								<div class="car-card">
+									<img class="card__img" src="img/card1.jpg" alt="#">
+									<div class="card__content">
+										<h4 class="card__title">Toyota Crown 2023</h4>
+										<p class="card__text">Сena 39900zł</p>
+										<p class="card__price">zł 6500/mi</p>
+									</div>
+									<a class="card__link" href="details.html">patrz szczegóły</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="blog">
+				<div class="container">
+					<div class="blog__items">
+						<div class="blog__item">
+							<img class="blog__item-img" src="img/blog1.jpg" alt="#">
+							<h4 class="blog__item-title">Łatwiejszy sposób na zakup kolejnej Toyoty</h4>
+							<a class="blog__item-link" href="news.html">więcej</a>
+						</div>
+						<div class="blog__item">
+							<img class="blog__item-img" src="img/blog2.jpg" alt="#">
+							<h4 class="blog__item-title">Łatwiejszy sposób na zakup kolejnej Toyoty</h4>
+							<a class="blog__item-link" href="news.html">więcej</a>
+						</div>
+					</div>
+					<div class="show__link-button">
+						<a class="show__link" href="news.html">POKAŻ WIĘCEJ</a>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="container">
+				<nav class="footer__menu">
+					<ul class="footer__menu-list">
+						<li class="footer__menu-item"><h4 class="footer__menu-title">Produkty</h4></li>
+						<li class="footer__menu-item"><a href="#" class="footer__menu-link">Używany</a></li>
+						<li class="footer__menu-item"><a href="#" class="footer__menu-link">Aktualności</a></li>
+						<li class="footer__menu-item"><a href="#" class="footer__menu-link">Sprzedaj swój samochód</a></li>
+					</ul>
+					<ul class="footer__menu-list">
+						<li class="footer__menu-item"><h4 class="footer__menu-title">Zasoby</h4></li>
+						<li class="footer__menu-item"><a href="#" class="footer__menu-link">Bloga</a></li>
+						<li class="footer__menu-item"><a href="#" class="footer__menu-link">FAQ</a></li>
+						<li class="footer__menu-item"><a href="#" class="footer__menu-link">Skontaktuj się</a></li>
+					</ul>
+					<ul class="footer__menu-list">
+						<li class="footer__menu-item"><h4 class="footer__menu-title">Pracuj z Auto Master</h4></li>
+						<li class="footer__menu-item"><a href="#" class="footer__menu-link">Dealers</a></li>
+						<li class="footer__menu-item"><a href="#" class="footer__menu-link">Partners</a></li>
+					</ul>
+					<ul class="footer__menu-list">
+						<li class="footer__menu-item"><h4 class="footer__menu-title">O nas</h4></li>
+						<li class="footer__menu-item"><a href="#" class="footer__menu-link">O nas</a></li>
+						<li class="footer__menu-item"><a href="#" class="footer__menu-link">Zespół</a></li>
+						<li class="footer__menu-item"><a href="#" class="footer__menu-link">Kariery</a></li>
+					</ul>
+				</nav>
+				<ul class="app">
+					<li class="app__item">
+						<a class="app__item-link" href="#" >
+							<img class="app__item-img" src="img/app-store.svg" alt="app-store">
+						</a>
+					</li>
+					<li class="app__item">
+						<a class="app__item-link" href="#" >
+							<img class="app__item-img" src="img/google-play.svg" alt="app-store">
+						</a>
+					</li>
+				</ul>
+				<div class="footer__copy">
+					<p class="footer__copy-text">W przypadku przybłukie słowiech uslugi zakupu samochodów Auto Master prosimy dzwonić pod numer 1-888-878-3227.
+						Certyfikowani dealerzy są pojadzeni umową przez Auto Master do społężenia wygaśnie w zakresie obsławki klienta i
+						zakończ program certyfikujący dealera Auto Master.</p>
+					<p class="footer__copy-text">Auto Master nie pośredniczy, nie sprzedaje ani nie leasinguje pojazdów silnikowych.
+						O ile nie zaznaczono inaczej, wszystkie pojazdy pokazane na tej stronie są oferowane do sprzedaży przez licencjonowanych dealerów pojazdów silnikowych.
+						Wszystkie pojazdy podlegają wcześniejszej sprzedaży. Wchodząc na tę stronę, wyrażasz zgodę na Warunki Auto Master
+						Serwisu i Polityki Prywatności.</p>
+				</div>
+				<nav class="copy__nav">
+					<ul class="copy__nav-list">
+						<li class="copy__nav-item"><a href="#" class="copy__nav-link">Warunki usługi</a></li>
+						<li class="copy__nav-item"><a href="#" class="copy__nav-link">Polityka prywatności</a></li>
+						<li class="copy__nav-item"><a href="#" class="copy__nav-link">Nie sprzedawaj moich danych osobowych</a></li>
+					</ul>
+				</nav>
+			</div>
+		</footer>
+	</div>
+	<script src="js/new-cars.js"></script>
+	</body>
+</html>
+
+

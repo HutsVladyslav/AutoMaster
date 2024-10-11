@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang = "pl">
+	<head>
+		<title>AutoMaster</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+		<link rel="stylesheet" href="css/details.css">
+	</head>
+	<body>
+	<div class="wrapper">
+		<header class="header header-main">
+			<div class="container">
+				<div class="header__inner">
+					<a class="logo" href="home.html">
+						<p class="logo__title">AutoMaster</p>
+					</a>
+					<nav class="menu">
+						<button class="menu__btn">
+							<span class="menu__btn-span"></span>
+							<span class="menu__btn-span"></span>
+							<span class="menu__btn-span"></span>
+						</button>
+						<ul class="menu__list">
+							<li class="menu__list-item">
+								<a class="menu__list-link" href="home.html">dom</a>
+							</li>
+							<li class="menu__list-item">
+								<a class="menu__list-link" href="new-cars.html">NOWE SAMOCHODY</a>
+							</li>
+							<li class="menu__list-item">
+								<a class="menu__list-link" href="news.html">Aktualności</a>
+							</li>
+							<li class="menu__list-item">
+								<a class="menu__list-link" href="contact.html">SKONTAKTUJ SIĘ</a>
+							</li>
+							<li>
+								<a href="logging.html"><span  class="menu__logout material-symbols-outlined">logout</span></a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</header>
+		<main class="main">
+			<section class="car">
+				<div class="container">
+					<div class="car__info">
+						<div class="return__btn">
+							<a class="car__link-btn" href="new-cars.html"><span class="material-symbols-outlined ">keyboard_backspace</span>powrót</a>
+						</div>
+						<div class="slider">
+							<div class="car__slider">
+								<div class="mySlides fade">
+									<div class="number-text">1/4</div>
+									<img class="mySlides-img" src="img/car1.jpg" style="width: 100%" alt="#">
+									<div class="text">Text</div>
+								</div>
+								<div class="mySlides fade">
+									<div class="number-text">2/4</div>
+									<img class="mySlides-img" src="img/car1.1.jpg" style="width: 100%" alt="#">
+									<div class="text">Text</div>
+								</div>
+								<div class="mySlides fade">
+									<div class="number-text">3/4</div>
+									<img class="mySlides-img" src="img/car1.2.png" style="width: 100%" alt="#">
+									<div class="text">Text</div>
+								</div>
+								<div class="mySlides fade">
+									<div class="number-text">4/4</div>
+									<img class="mySlides-img" src="img/car1.3.jpg" style="width: 100%" alt="#">
+									<div class="text">Text</div>
+								</div>
+								<a class="pref" onclick="plusSlides(-1)">&#10094</a>
+								<a class="next" onclick="plusSlides(1)">&#10095</a>
+							</div>
+							<br>
+							<div style="text-align: center">
+								<span class="dot" onclick="plusSlides(1)"></span>
+								<span class="dot" onclick="plusSlides(2)"></span>
+								<span class="dot" onclick="plusSlides(3)"></span>
+								<span class="dot" onclick="plusSlides(4)"></span>
+							</div>
+						</div>
+						<div class="car__info-main">
+							<div class="name__car">
+								<h4 class="name__car-title">BMW iX xDrive40</h4>
+								<p class="name__car-text">Numer identyfikacyjny 1693536</p>
+								<p class="name__car-price">515 481 zł</p>
+								<div class="car__btn" >
+									<a class="car__link-btn" href="contact.html">SKONTAKTUJ SIĘ</a>
+								</div>
+							</div>
+							<div class="car__info-details">
+								<h4 class="card__title">Silnik elektryczny i wydajność:</h4>
+								<p>BMW iX xDrive40 wyposażone jest w silnik elektryczny zapewniający moc i dynamikę,
+									typowe dla modeli BMW. Dzięki swoim osiągom samochód ten przyspiesza od 0 do 100 km/h
+									w ciągu zaledwie kilku sekund, zapewniając natychmiastową informację zwrotną dotyczącą sterowania.</p>
+								<h4 class="card__title">Projekt i wygoda:</h4>
+								<p>Nowoczesny i elegancki design z naciskiem na aerodynamikę odzwierciedla postępowy charakter BMW iX xDrive40.
+									Wyróżnia go także wykwintne wnętrze, w którym wykorzystano ekologiczne materiały i najnowocześniejsze rozwiązania
+									technologie zapewniające wysoki poziom komfortu.</p>
+								<h4 class="card__title">Technologie i zarządzanie:</h4>
+								<p>BMW iX xDrive40 jest wyposażone w zaawansowane technologie, takie jak innowacyjny system informacyjno-rozrywkowy,
+									adaptacyjna kontrola biegów i inne funkcje, które pomagają kierowcom czerpać jak najwięcej przyjemności
+									od prowadzenia samochodu.</p>
+								<h4 class="card__title">Elektryczna technologia mobilna:</h4>
+								<p>Dzięki zaawansowanej technologii akumulatorów BMW iX xDrive40 może pokonywać znaczne odległości
+									na jednym ładowaniu, co czyni go idealnym wyborem dla osób poszukujących rozwiązań wydajnych i przyjaznych dla środowiska
+									czysty samochód BMW iX xDrive40 to połączenie nowoczesnej technologii, efektownego designu i
+									wysokie osiągi, co czyni go idealnym wyborem dla samochodu elektrycznego przyszłości.</p>
+							</div>
+						</div>
+						<div class="table__data">
+							<h2 class="map-title">Kompletny zestaw BMW iX xDrive40</h2>
+							<table>
+								<tr>
+									<th class="table-color">Opcja</th>
+									<th class="table-color">Charakterystyka</th>
+								</tr>
+								<tr>
+									<td>Silnik</td>
+									<td>Elektryczny</td>
+								</tr>
+								<tr>
+									<td>Moc</td>
+									<td>326 KM</td>
+								</tr>
+								<tr>
+									<td>Okazja</td>
+									<td>Pełny (xDrive)</td>
+								</tr>
+								<tr>
+									<td>Przebieg</td>
+									<td>Około 400 km</td>
+								</tr>
+							</table>
+						</div>
+						<h2 class="map-title">Lokalizacja</h2>
+						<div id="map">
+							<iframe class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!
+							1d5059.154850950305!2d17.9049865!3d50.6535387!3m2!1i1024!2i768!4f13.1!3m3!
+							1m2!1s0x471053bb1bcdafab%3A0xf2ef41915344d5dd!2sPolitechnika%20Opolska!5e0!
+							3m2!1spl!2spl!4v1701888287719!5m2!1spl!2spl" width="600" height="450"
+									style="border:0;" allowfullscreen="" loading="lazy"
+									referrerpolicy="no-referrer-when-downgrade"></iframe>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="container">
+				<nav class="footer__menu">
+					<ul class="footer__menu-list">
+						<li class="footer__menu-item"><h4 class="footer__menu-title">Produkty</h4></li>
+						<li class="footer__menu-item"><a href="#" class="footer__menu-link">Używany</a></li>
+						<li class="footer__menu-item"><a href="#" class="footer__menu-link">Aktualności</a></li>
+						<li class="footer__menu-item"><a href="#" class="footer__menu-link">Sprzedaj swój samochód</a></li>
+					</ul>
+					<ul class="footer__menu-list">
+						<li class="footer__menu-item"><h4 class="footer__menu-title">Zasoby</h4></li>
+						<li class="footer__menu-item"><a href="#" class="footer__menu-link">Bloga</a></li>
+						<li class="footer__menu-item"><a href="#" class="footer__menu-link">FAQ</a></li>
+						<li class="footer__menu-item"><a href="#" class="footer__menu-link">Skontaktuj się</a></li>
+					</ul>
+					<ul class="footer__menu-list">
+						<li class="footer__menu-item"><h4 class="footer__menu-title">Pracuj z Auto Master</h4></li>
+						<li class="footer__menu-item"><a href="#" class="footer__menu-link">Dealers</a></li>
+						<li class="footer__menu-item"><a href="#" class="footer__menu-link">Partners</a></li>
+					</ul>
+					<ul class="footer__menu-list">
+						<li class="footer__menu-item"><h4 class="footer__menu-title">O nas</h4></li>
+						<li class="footer__menu-item"><a href="#" class="footer__menu-link">O nas</a></li>
+						<li class="footer__menu-item"><a href="#" class="footer__menu-link">Zespół</a></li>
+						<li class="footer__menu-item"><a href="#" class="footer__menu-link">Kariery</a></li>
+					</ul>
+				</nav>
+				<ul class="app">
+					<li class="app__item">
+						<a class="app__item-link" href="#" >
+							<img class="app__item-img" src="img/app-store.svg" alt="app-store">
+						</a>
+					</li>
+					<li class="app__item">
+						<a class="app__item-link" href="#" >
+							<img class="app__item-img" src="img/google-play.svg" alt="app-store">
+						</a>
+					</li>
+				</ul>
+				<div class="footer__copy">
+					<p class="footer__copy-text">W przypadku przybłukie słowiech uslugi zakupu samochodów Auto Master prosimy dzwonić pod numer 1-888-878-3227.
+						Certyfikowani dealerzy są pojadzeni umową przez Auto Master do społężenia wygaśnie w zakresie obsławki klienta i
+						zakończ program certyfikujący dealera Auto Master.</p>
+					<p class="footer__copy-text">Auto Master nie pośredniczy, nie sprzedaje ani nie leasinguje pojazdów silnikowych.
+						O ile nie zaznaczono inaczej, wszystkie pojazdy pokazane na tej stronie są oferowane do sprzedaży przez licencjonowanych dealerów pojazdów silnikowych.
+						Wszystkie pojazdy podlegają wcześniejszej sprzedaży. Wchodząc na tę stronę, wyrażasz zgodę na Warunki Auto Master
+						Serwisu i Polityki Prywatności.</p>
+				</div>
+				<nav class="copy__nav">
+					<ul class="copy__nav-list">
+						<li class="copy__nav-item"><a href="#" class="copy__nav-link">Warunki usługi</a></li>
+						<li class="copy__nav-item"><a href="#" class="copy__nav-link">Polityka prywatności</a></li>
+						<li class="copy__nav-item"><a href="#" class="copy__nav-link">Nie sprzedawaj moich danych osobowych</a></li>
+					</ul>
+				</nav>
+			</div>
+		</footer>
+	</div>
+	<script src="js/details.js"></script>
+	</body>
+</html>
+
+
