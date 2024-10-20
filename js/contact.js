@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', function () {
             from_name: firstName,
             last_name: lastName,
             email,
-        }, "UNgLuwnHZF3XWSRTF")
+        }, "")
             .then(function(response) {
                 alert("Form submitted successfully!");
                 document.getElementById("contactForm").reset();
